@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(28, 212, 126);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenant{
+    background-color: white;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.temps{
+    font-family: 'dancing script';
+    border: 1px solid #646464;
+    margin: auto;
+    border-radius: 3px;
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.bouton{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+button{
+    background-color: rgb(16, 219, 124);
+    border: 0;
+    border-radius: 2px;
+    transition: 0.5ms;
+    padding: 10px ;
+    width: 31%;
+    color: white;
+    letter-spacing: 1px;
+}
+.boutonclique:hover{
+    transform: scale(0.9);
+}
