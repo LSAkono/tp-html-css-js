@@ -98,6 +98,6 @@ span{
   }
 }
 
-.tache {
+.tache.cree {
   animation: slideUp 0.5s ease-out;
 }

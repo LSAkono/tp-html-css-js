@@ -39,7 +39,7 @@ function ajouterTache(tache){
     var newdiv=document.createElement('div');
     newdiv.appendChild(document.createTextNode(tache));
     parentform.appendChild(newdiv);
-    newdiv.className='tache';
+    newdiv.className='tache cree';
 
     // Fait défiler jusqu'à la nouvelle tâche ajoutée
     newdiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
